@@ -1,0 +1,72 @@
+
+.brand{
+display: inline-flex;
+    align-items: center;
+}
+.brandTitle{
+        margin-bottom: 2px;
+   margin-left: -17px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+.brandLogo{
+    height: 73px;
+    width: 73px;
+}
+
+
+.wrapper{
+
+display: flex;
+    margin: 0px;
+    margin-left: 40px;
+
+}
+
+.listElements{
+
+display: flex;
+    gap: 15px;
+    list-style-type: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+
+}
+.decouvrir{
+    color: green;
+}
+.menu_nav{
+    display: flex;
+    align-items: center;
+/*  column-gap: 50px;
+    list-style-type: none;*/
+
+
+}
+
+.header_menu_options{
+
+    display: flex;
+    column-gap: 20px;
+    list-style-type: none;
+
+}
+
+.header_menu_options{
+ align-items: center;
+}
+.btnCompte{
+    padding: 12px;
+    background-color: #2625BF;
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+ul li{
+
+    cursor: pointer;
+
+}
+
+
