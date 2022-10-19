@@ -1,4 +1,84 @@
+.header{
+    border-bottom: 1px solid rgba(167,167,167,0.52);
 
+
+
+}
+
+.nav_bar{
+    display: flex;
+    justify-content: space-between;
+    width: 100% ;
+
+}
+.searchBar{
+    display: flex;
+    width: 450px;
+    border-radius: 20px;
+    border-color: rgba(167,167,167,0.52);
+
+
+    padding: 11px 20px;
+
+    border-width: thin;
+
+
+
+}
+.searchBar::placeholder {
+    align-items: center;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    opacity: .5;
+    color: gray;
+
+
+}
+.signInPart
+{
+    display: flex;
+    align-items: center;
+
+}
+.signIn
+{
+    margin-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+
+
+}
+
+.inputForm{
+    display: flex;
+
+}
+.iconSearch{
+    font-size:24px;
+    margin-left: -40px;
+    margin-top: 5px;
+}
+.iconGift{
+    font-size:16px;
+
+    border: solid;
+    border-radius: 20px;
+    border-color: rgba(167,167,167,0.52);
+    border-width: 2px;
+
+    padding: 7px;
+
+    margin-left: 40px;
+
+}
+.menu_nav_droite{
+    display: flex;
+    align-items: center;
+
+
+
+}
 .brand{
 display: inline-flex;
     align-items: center;
@@ -10,6 +90,7 @@ display: inline-flex;
     font-weight: bolder;
 }
 .brandLogo{
+
     height: 73px;
     width: 73px;
 }
@@ -32,14 +113,23 @@ display: flex;
     font-size: 15px;
 
 }
-.decouvrir{
+.decouvrir:hover{
+
     color: green;
+
 }
-.menu_nav{
+
+.menu_nav_gauche{
     display: flex;
-    align-items: center;
+
+
 /*  column-gap: 50px;
     list-style-type: none;*/
+
+
+}
+.bottomBorder{
+
 
 
 }
@@ -53,7 +143,7 @@ display: flex;
 }
 
 .header_menu_options{
- align-items: center;
+
 }
 .btnCompte{
     padding: 12px;
