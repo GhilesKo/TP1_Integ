@@ -4,11 +4,6 @@
    Les éléments de la page vont hérités des propriétés inscrite dans body
    ========================================================================== */
 
-body {
-
-
-
-}
 
 .title{
 
@@ -42,33 +37,120 @@ body {
     height: 440px;
     margin-top: 70px;
 
-
 }
 
 
-.left{
-    flex: 1 0 50%;
-    white-space: nowrap;
 
 
-
-}
-.right {
-    flex: 1 0 50%;
-    white-space: nowrap;
-
-    box-sizing: border-box;
-
-}
-
-.imageCase{
-grid-row-end: row-line;
-}
-.mainContent{
-   display: flex;
-}
 .logo{
     width: 90px;
     height: 90px;
+
 }
+
+.hero_items{
+
+    display: grid;
+    grid-template-columns: 45% 55%;
+
+    grid-column-end: auto;
+
+
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+
+}
+.logoBrand{
+    display: flex;
+
+}
+.titleNextToBrand{
+
+
+margin-top: 27px;
+    font-family: Montserrat;
+    color: green;
+}
+.city{
+
+    font-family: Montserrat;
+    margin-top: 4px;
+
+}
+.titlebrandBox{
+    margin-left: -5px;
+
+}
+
+.information{
+
+    display: flex;
+
+    justify-content: space-between;
+    margin-left: 23px;
+}
+
+.infoText{
+
+    font-family: Montserrat;
+    font-size: 18px;
+
+}
+
+.underInfo{
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: lighter;
+    margin-top: 3px;
+
+}
+
+.backgroundBar{
+    width: 760px;
+    height: 12px;
+    margin-left: 23px;
+    background: gray;
+    border-radius: 15px;
+    margin-top: 15px;
+
+}
+.bar{
+    width: 550px;
+    height: 12px;
+    margin-left: 23px;
+    background: #456F51;
+    border-radius: 15px 0 0 15px    ;
+    margin-top: -12px;
+
+
+}
+.contribuer{
+
+width: 600px;
+    height: 80px;
+    color: white;
+    background-color: #456F51;
+    border: none;
+    border-radius: 5px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 60px;
+    margin-left: 23px;
+}
+
+.socialMedia{
+    display: flex;
+    gap: 60px;
+    margin-top: 20px;
+
+    align-items: center;
+
+
+
+}
+
 
