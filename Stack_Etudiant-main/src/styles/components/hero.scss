@@ -1,0 +1,74 @@
+/* ==========================================================================
+   BODY / ELEMENT
+   Le body permet d'initialiser les propriétés générales de la page.
+   Les éléments de la page vont hérités des propriétés inscrite dans body
+   ========================================================================== */
+
+body {
+
+
+
+}
+
+.title{
+
+ font-family: 'Battambang', sans-serif;
+    font-size: 55px;
+    text-align: center;
+    font-weight: normal;
+    margin-top: 60px;
+
+}
+.subheading{
+
+    font-family: 'Niconne';
+    font-size: 120px;
+    text-align: center;
+    font-weight: normal;
+    font-weight: 300;
+    margin-top: -20px;
+}
+
+.text{
+
+    font-family: 'Battambang';
+    text-align: center;
+    font-weight: normal;
+    font-size: 18px;
+
+}
+.imageCase{
+    width: 590px;
+    height: 440px;
+    margin-top: 70px;
+
+
+}
+
+
+.left{
+    flex: 1 0 50%;
+    white-space: nowrap;
+
+
+
+}
+.right {
+    flex: 1 0 50%;
+    white-space: nowrap;
+
+    box-sizing: border-box;
+
+}
+
+.imageCase{
+grid-row-end: row-line;
+}
+.mainContent{
+   display: flex;
+}
+.logo{
+    width: 90px;
+    height: 90px;
+}
+
