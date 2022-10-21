@@ -246,6 +246,8 @@ display: flex;
 
 font-size: 17px;
     font-family: 'Battambang', sans-serif;
+    margin-left: 3px;
+
 
 
 }
@@ -253,7 +255,7 @@ font-size: 17px;
 .conteneur{
 
     display: grid;
-    grid-template-columns: 70% 30%;
+    grid-template-columns: 65% 35%;
 
 }
 .imagePhones{
@@ -268,5 +270,61 @@ font-size: 17px;
     font-size: 17px;
     font-family: 'Battambang', sans-serif;
     margin-top: 70px;
+    margin-left: 3px;
+
+}
+
+.rightPart{
+    display: flex;
+    flex-direction: column;
+
+
+}
+.boiteContribution{
+
+    border-radius: 10px;
+    display: block;
+    width: 350px;
+    height: 460px;
+    border: solid #a8a8a8 2px;
+
+    margin: 90px auto 0px 120px;
+
+
+
+}
+
+.boiteImage{
+
+    width: 350px;
+    height: 140px;
+    background-color: #456F51;
+    border-radius: 2px;
+    opacity: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.imageboite{
+
+width: 130px;
+    height: 130px;
+
+
+
+}
+
+.lastoiteContribution{
+
+    border-radius: 10px;
+    display: block;
+    width: 350px;
+    height: 325px;
+    border: solid #a8a8a8 2px;
+
+    margin: 90px auto 0px 120px;
+
 
 }
