@@ -1,0 +1,229 @@
+.titleSection{
+    font-family: 'Battambang';
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 60px;
+
+
+}
+.textInfo{
+
+    font-size: 17px;
+    font-family: 'Battambang', sans-serif;
+    margin-left: 3px;
+
+
+
+}
+
+.conteneur{
+
+    display: grid;
+    grid-template-columns: 65% 35%;
+
+}
+.imagePhones{
+
+    border-radius: 11px;
+    border:solid #456F51;
+    border-width: 3px;
+}
+
+.secondtextInfo{
+
+    font-size: 17px;
+    font-family: 'Battambang', sans-serif;
+    margin-top: 70px;
+    margin-left: 3px;
+
+}
+
+.rightPart{
+    display: flex;
+    flex-direction: column;
+
+
+}
+.boiteContribution{
+
+    border-radius: 10px;
+    display: block;
+    width: 350px;
+    height: 460px;
+    border: solid #a8a8a8 2px;
+
+    margin: 90px auto 0px 120px;
+
+
+
+}
+
+.boiteImage{
+
+    width: 347px;
+    height: 140px;
+    background-color: #456F51;
+    border-radius: 9px;
+    opacity: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.imageboite{
+
+    width: 130px;
+    height: 130px;
+
+
+
+}
+
+.lastoiteContribution{
+
+    border-radius: 10px;
+    display: block;
+    width: 350px;
+    height: 350px;
+    border: solid #a8a8a8 2px;
+
+    margin: 90px auto 0px 120px;
+
+
+
+
+}
+.mainContribution{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.titreContribution{
+    font-size: 20px;
+    margin-top: 15px;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+.prix{
+
+    color: #456F51;
+    font-size: 27px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+}
+
+.nombreContribueurs{
+    width: 170px;
+    height: 24px;
+    background-color: #849986;
+    border-radius: 15px;
+
+    margin-top: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.textecontribution{
+    font-family: 'Battambang', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+
+}
+
+.bottominfo {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    margin-top: 70px;
+
+
+
+}
+
+.contribuerBtn{
+
+
+
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #456F51;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.classeprofiter {
+    width: 300px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 7px;
+}
+
+.textebox{
+    margin-top: -23px;
+    text-align: center;
+}
+
+.boxMontant{
+    width: 300px;
+    height: 40px;
+
+    border: solid black thin;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+.bottomBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+
+}
+.contribuerBtntwo{
+
+
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #456F51;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 17px;
+}
+
+.montant{margin-right: 135px;
+    margin-bottom: 10px;
+
+
+}
+
+.example{
+
+    margin-left: 30px;
+    opacity: 40%;
+}
+.dollar{
+
+    margin-right: 30px;
+    opacity: 40%;
+}

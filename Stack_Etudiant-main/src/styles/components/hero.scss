@@ -5,7 +5,7 @@
    ========================================================================== */
 
 
-.title{
+.titleee{
 
  font-family: 'Battambang', sans-serif;
     font-size: 55px;
@@ -234,97 +234,7 @@ display: flex;
 
 }
 
-.titleSection{
-    font-family: 'Battambang';
-    font-size: 50px;
-    font-weight: 500;
-    margin-top: 60px;
-
-
-}
-.textInfo{
-
-font-size: 17px;
-    font-family: 'Battambang', sans-serif;
-    margin-left: 3px;
 
 
 
-}
 
-.conteneur{
-
-    display: grid;
-    grid-template-columns: 65% 35%;
-
-}
-.imagePhones{
-
-    border-radius: 11px;
-    border:solid #456F51;
-    border-width: 3px;
-}
-
-.secondtextInfo{
-
-    font-size: 17px;
-    font-family: 'Battambang', sans-serif;
-    margin-top: 70px;
-    margin-left: 3px;
-
-}
-
-.rightPart{
-    display: flex;
-    flex-direction: column;
-
-
-}
-.boiteContribution{
-
-    border-radius: 10px;
-    display: block;
-    width: 350px;
-    height: 460px;
-    border: solid #a8a8a8 2px;
-
-    margin: 90px auto 0px 120px;
-
-
-
-}
-
-.boiteImage{
-
-    width: 350px;
-    height: 140px;
-    background-color: #456F51;
-    border-radius: 2px;
-    opacity: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-
-}
-.imageboite{
-
-width: 130px;
-    height: 130px;
-
-
-
-}
-
-.lastoiteContribution{
-
-    border-radius: 10px;
-    display: block;
-    width: 350px;
-    height: 325px;
-    border: solid #a8a8a8 2px;
-
-    margin: 90px auto 0px 120px;
-
-
-}

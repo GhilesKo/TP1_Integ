@@ -1,0 +1,62 @@
+.footer{
+
+    height: 230px;
+    width: 100%;
+    background-color: #617966;
+
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+
+.footerLeft{
+    display: flex;
+    align-items: center;
+
+
+}
+.cova{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-left: -55px;
+    margin-top: 15px;
+
+}
+.logofooter{
+    height: 220px;
+    width: 220px;
+}
+
+.midBox{
+
+    display: flex;
+   gap: 50px;
+    justify-content: center;
+}
+
+.columnFooter{
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    h3:hover{
+        color: white;
+        cursor:pointer;
+    text-decoration: underline;
+
+    }
+}
+.titre{
+
+    margin-right: 3px;
+}
+
+.footerDroite{
+    display: flex;
+
+    align-items: center;
+    margin-right: 20px;
+}
+
